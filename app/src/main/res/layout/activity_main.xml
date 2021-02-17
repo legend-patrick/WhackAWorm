@@ -15,4 +15,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="397dp"
+        android:focusableInTouchMode="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/titlebg" />
+
+    <ImageView
+        android:id="@+id/playImageView"
+        android:layout_width="109dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/playbtn"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="401dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

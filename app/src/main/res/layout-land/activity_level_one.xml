@@ -8,27 +8,24 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="486dp"
-        android:layout_height="280dp"
+        android:layout_width="721dp"
+        android:layout_height="407dp"
         android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/gamebg" />
 
     <TextView
         android:id="@+id/timerTextView"
-        android:layout_width="138dp"
-        android:layout_height="77dp"
-        android:textSize="30sp"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.117" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

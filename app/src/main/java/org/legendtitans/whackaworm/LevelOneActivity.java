@@ -12,11 +12,11 @@ public class LevelOneActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level_one);
-        textView = findViewById(R.id.timerTextView);
 
+        textView = findViewById(R.id.timerTextView);
         new CountDownTimer(50000, 1000) {
             public void onTick(long millisUntilFinished) {
-                long sec = (millisUntilFinished / 1000) ;
+                long sec = millisUntilFinished / 1000;
                 textView.setText(sec+"");
             }
             // When the task is over it will print 00:00:00 there
